@@ -13,19 +13,17 @@ public class Partido {
 	
 
 
-	public Partido(int codPartido,int  codEquipo1,int CodEquipo2, int codArbitro,int codEstadisticas, int Fecha,String Estado,String Ciudad) {
+	public Partido(int codPartido,int  codEquipo1,int CodEquipo2, int codArbitro,int codEstadisticas,String Fecha,String Estado,String Ciudad) {
 		
 		this.codPartido = codPartido;
 		this.codEquipo1 = codEquipo1;
 		this.codEquipo2 = CodEquipo2;
 		this.codArbitro = codArbitro;
 		this.codEstadisticas = codEstadisticas;
-		this.Fecha = Fecha;
+		this.Fecha = Fecha ;
 		this.Estado = Estado;
 		this.Ciudad = Ciudad;
 		
-
-
 	}
 	
 	public Partido() {
